@@ -26,11 +26,11 @@ Funcionalidades
   
 Capturas
 
-ADMINISTRADOR.
+ADMINISTRADOR
 <img width="372" height="162" alt="image" src="https://github.com/user-attachments/assets/2d988887-6ef8-4d9c-afbe-218f1488b6ad" />
 
 USUARIO
 <img width="254" height="217" alt="image" src="https://github.com/user-attachments/assets/bc529b24-4c65-4750-94df-42dd890d94ca" />
 
-Instalación
+Instalación.
 La aplicación web se despliega en local utilizando XAMPP
