@@ -1,0 +1,190 @@
+header {     
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    color: darkblue;
+    padding: 12px;
+    align-items: center;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    margin-bottom: 60px;
+}
+
+.logo{  
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 5px;
+}
+
+.imagenlogo { 
+    width: 70px;
+    height:auto;
+    margin-right: 60px;
+}
+
+.tamaño_enlaces{
+    font-size: 15px;
+}
+.h1{
+    text-align: center;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+nav a{ 
+    font-weight: 600;
+    padding-right: 10px;
+  
+}
+
+main {
+    flex: 1;           
+  }
+
+nav a:hover{ 
+    color: white;
+}
+
+.opciones-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.opcion { 
+    background-color: white;
+    border-radius: 8px;
+    width: 45%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
+
+.opcion-info { 
+    padding: 15px;
+    word-wrap: break-word;    
+    overflow-wrap: break-word; 
+    white-space: normal; 
+}      
+
+.opcion-info h2 {
+    margin: 0;
+    color: darkblue;
+}
+
+.opcion-info p {
+    color: #555;
+}
+.descripcion {
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 1.05em;
+    padding: 0 15px;
+  }
+  
+.info-fecha-precio {
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+
+.registro {
+    width:380px;
+    height: auto;
+    background: lightblue;
+    padding: 30px;
+    margin: auto;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.registro h3{
+    color: darkblue;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.registro p{
+    height: 40px;
+    text-align:center;
+    font-size: 16px;
+}
+
+.registro a{
+    height: 40px;
+    font-size: 16px;
+}
+
+.dato {
+    width: 95%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border: 1px
+
+}
+
+.boton {
+    width: 100%;
+    height:60px;
+    background: darkblue;
+    padding: 12px;
+    font-size: 20px;
+    color:white;
+    border-radius: 8px;
+    text-align:center;
+
+}
+
+.correcto {
+    top: 50px;
+    text-align:center;
+    font-size: 16px;
+    color: darkblue;
+
+}
+
+.error{
+    top: 50px;
+    text-align:center;
+    font-size: 16px;
+    color: red;
+
+}
+
+.franja-superior{
+    background-color: #e0e0e0; 
+    padding: 30px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+footer{
+    background-color: lightblue;
+    color: darkblue;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
