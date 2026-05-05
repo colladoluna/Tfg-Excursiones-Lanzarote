@@ -51,3 +51,9 @@ http://localhost/phpmyadmin
 
 7. Abre la aplicación en el navegador.
 
+8. Usuarios de la base de datos:
+
+   admin@excursiones.com password admin123
+   usuario@excursiones.com password usuario123
+
+
