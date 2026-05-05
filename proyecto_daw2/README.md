@@ -54,6 +54,7 @@ http://localhost/phpmyadmin
 8. Usuarios de la base de datos:
 
    admin@excursiones.com password admin123
+   
    usuario@excursiones.com password usuario123
 
 
